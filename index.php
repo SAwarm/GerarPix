@@ -6,12 +6,12 @@ use \App\Pix\Payload;
 use Mpdf\QrCode\QrCode;
 use Mpdf\QrCode\Output;
 
-$obPayload = (new Payload)->setPixKey('123456789000')
-                          ->setDescription('payment')
-                          ->setMerchantName('Test Name')
+$obPayload = (new Payload)->setPixKey('11041265913')
+                          ->setDescription('Pagamento')
+                          ->setMerchantName('Jonas da Silva Elias')
                           ->setMerchantCity("Ararangua")
                           ->setAmount(5.00)
-                          ->setTxid('TestId');
+                          ->setTxid('teste');
 
 $payloadQrCode = $obPayload->getPayload();
 
