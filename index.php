@@ -2,7 +2,7 @@
 
 require("./vendor/autoload.php");
 
-use \App\Pix\Payload;
+use App\Pix\Payload;
 use Mpdf\QrCode\QrCode;
 use Mpdf\QrCode\Output;
 
