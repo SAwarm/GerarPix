@@ -1,1 +1,1 @@
-# GerarPix
+# generate-pix
